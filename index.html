@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Chatbox JS</title>
+</head>
+<body>
+    <div class="btn-container"><button id="chat">Open Chat</button></div>
+
+    <div class="main" id="main-cont">
+        <h1>Simple Chatbox HTML CSS JavaScript</h1>
+        <button id="close" title="Close Chat">X</button>
+
+        <div class="chat-container">
+            <div class="sub-cont" id="sub-cont-1">
+                <img class="person" src="./person-one.png" title="Person-1" alt="person">
+                <h3 id="chat-1">Hey</h3>
+                <img class="delOpt" src="./delete.png" title="Delete chat" alt="delete">
+            </div>
+            <div class="sub-cont" id="sub-cont-2">
+                <img class="delOpt" src="./delete.png" title="Delete chat" alt="delete">
+                <h3 id="chat-2">Hello</h3>
+                <img class="person" src="./person-two.png" title="Person-2" alt="person">
+            </div>
+        </div>
+
+        <div class="type-container">
+            <div class="child">
+                <input type="text" id="type-1" placeholder="Type message">
+                <button id="act-1">Person 1</button>
+            </div>
+            <div class="child">
+                <input type="text" id="type-2" placeholder="Type message">
+                <button id="act-2">Person 2</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
